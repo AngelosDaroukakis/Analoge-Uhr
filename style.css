@@ -1,0 +1,96 @@
+/*Background for the clock*/
+.background {
+  background: #000000;
+  text-align: center;
+  font-size: 10px;
+}
+.body{
+  margin: 0;
+  font-size: 2;
+  display: flex;
+  flex: 1;
+  min-height: 100;
+  align-items: center;
+}
+/*main clock body*/
+.clock {
+  width: 45rem;
+  height: 45rem;
+  aspect-ratio: 1 / 1;
+  border: 7px solid #0011ff;
+  border-radius: 50%;
+  margin: 50px auto;
+  position: relative;
+  background: #000000;
+}
+/*inner clock circle*/
+.inner-clock-face {
+  width: 35rem;
+  height: 35rem;
+  aspect-ratio: 1 / 1;
+  border: 7px solid #0011ff;
+  border-radius: 50%;
+  margin: 43px auto;
+  position: relative;
+  background: #000000;
+}
+/*configuration for the hourhand and the minutehand*/
+.hand {
+  width: 50%;
+  right: 50%;
+  height: 8px;
+  background: #0011ff;
+  position: absolute;
+  top: 50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+.hand.hour-hand {
+  width: 20%;
+  z-index: 3;
+}
+.hand.min-hand {
+  height: 8px;
+  z-index: 10;
+  width: 40%;
+}
+/*secondhand*/
+.hand.second-hand {
+  background: #00ffff;
+  width: 37%;
+  height: 3px;
+}
+/*clock markings at 12,3,6,9 oclock for readability*/
+.marking {
+  position: absolute;
+  background: #ffffff;
+}
+.marking-one {
+  width: 6px;
+  height: 40px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.marking-two {
+  width: 40px;
+  height: 6px;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.marking-three {
+  width: 6px;
+  height: 40px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.marking-four {
+  width: 40px;
+  height: 6px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
