@@ -24,13 +24,6 @@ Erstelle bei Fehlern bitte ein **Issue** im Repository.
 - nur relevante Änderungen enthalten.
 
 ## Lizenz & Credits
-Mitwirkende: **PantriMasi**  
+Mitwirkende: **AngelosDaroukakis**  
 Externe Quellen wurden in dieser Version nicht verwendet.  
 Die Nutzung oder Weiterentwicklung des Projekts erfolgt im Rahmen der im Repository hinterlegten Lizenz (falls vorhanden).
-
-## Zusätzliche Links
-Mögliche zukünftige Erweiterungen:
-- Umschaltbares **Dark-/Light-Theme**
-- Zusätzliche Stunden- und Minutenmarkierungen
-- Integration einer **digitalen Zeit-Anzeige**
-- Optionale Dokumentation oder Roadmap in separaten Dateien wie `DOCS.md` oder `ROADMAP.md`
